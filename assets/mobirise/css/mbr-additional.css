@@ -2158,13 +2158,52 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s4GnO9v3jF {
-  background-image: url("../../../assets/images/coffeewithjakeheader-1832x1415.png");
+  background-image: url("../../../assets/images/coffeebeans-2000x1525.jpg");
 }
 .cid-s4GnO9v3jF H3 {
   color: #ed4266;
 }
 .cid-s4GnO9v3jF H1 {
   color: #ffffff;
+}
+#custom-html-f {
+  /* Type valid CSS here */
+}
+#custom-html-f div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-f p {
+  font-size: 60px;
+  color: #777;
+}
+.cid-s4Gu8jIyUc {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+}
+.cid-s4Gu8jIyUc .line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background: #7f1933;
+  transition: background 0.3s;
+}
+.cid-s4Gu8jIyUc H2 {
+  color: #255085;
+}
+.cid-s4Gu8jIyUc H3 {
+  color: #232323;
+}
+.cid-s4Gu8jIyUc .mbr-text,
+.cid-s4Gu8jIyUc .mbr-section-btn {
+  color: #767676;
+}
+@media (max-width: 992px) {
+  .cid-s4Gu8jIyUc .md-pb {
+    padding-bottom: 2rem;
+  }
 }
 .cid-s4GohAOzgj .navbar {
   background: #ffffff;
