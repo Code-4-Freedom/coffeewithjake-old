@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coffee WIth Jake",
-    "currentPage": "index.html",
+    "currentPage": "polls.html",
     "theme": {
       "name": "politicsm4",
       "title": "PoliticsM4",
@@ -598,11 +598,11 @@
           "_name": "header02",
           "_customHTML": "<section class=\"header02\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/stats-2000x1333.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#36404c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-semibold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">POLLS</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">BETA</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Our polling response system is private! We do not collect any personal data.<br>This is an experimental project. Due to this, we cannot confirm accuracy of results.&nbsp;</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black\" href=\"polls.html\" data-app-placeholder=\"Type Text\">View active poll</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "s4GymElCNf",
+          "_anchor": "header02-h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header02-h"
+          "_params": {}
         }
       ]
     },
@@ -1727,7 +1727,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <h2>Which drink do you prefer?</h2>\n    <p style=\"padding:5mm;\"></p>\n    <p id=\"privacylike\"><a href=\"https://kutt.it/cwj-vote1\" target=\"_BLANK\" onclick=\"vote1()\"></a></p><a class=\"btn btn-sm btn-black display-4\" href=\"https://kutt.it/cwj-vote1\" target=\"_BLANK\" onclick=\"vote1()\">COFFEE</a><a class=\"btn btn-sm btn-black display-4\" href=\"https://kutt.it/cwj-vote2\" target=\"_BLANK\" onclick=\"vote1()\">TEA</a><p></p>\n\n[JS_CODE_0]\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <h2 style=\"padding:5mm\">Which drink do you prefer?</h2>\n    <p style=\"padding:5mm;\"></p>\n    <p id=\"privacylike\"><a href=\"https://kutt.it/cwj-vote1\" target=\"_BLANK\" onclick=\"vote1()\"></a></p><a class=\"btn btn-sm btn-black display-4\" href=\"https://kutt.it/cwj-vote1\" target=\"_BLANK\" onclick=\"vote1()\">COFFEE</a><a class=\"btn btn-sm btn-black display-4\" href=\"https://kutt.it/cwj-vote2\" target=\"_BLANK\" onclick=\"vote1()\">TEA</a><p></p>\n\n[JS_CODE_0]\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
