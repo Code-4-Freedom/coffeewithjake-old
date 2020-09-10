@@ -1143,10 +1143,81 @@ section.lazy-placeholder:after {
 .cid-s4EvMAJ5EY {
   background-image: url("../../../assets/images/coffeewithjakeheader-1832x1415.png");
 }
-.cid-s4F3ItcfHB {
-  padding-top: 135px;
-  padding-bottom: 135px;
-  background-color: #7f1933;
+.cid-sadG1b3nQA {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #f5f5f7;
+}
+.cid-sadG1b3nQA .card-img {
+  position: relative;
+  overflow: hidden;
+}
+.cid-sadG1b3nQA .btn-col {
+  margin: auto;
+}
+.cid-sadG1b3nQA .btn-col .btn {
+  margin: 0.4rem;
+  max-width: 100px;
+  padding: 1.8rem 0.8rem;
+}
+.cid-sadG1b3nQA .line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background: #7f1933;
+}
+.cid-sadG1b3nQA .card-img:before {
+  content: '';
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  height: 100%;
+  left: 0;
+  background-color: #232323;
+  opacity: 0;
+  transform-origin: right center 0;
+  transform: perspective(100px) rotateY(-120deg);
+  transform-style: flat;
+  transition: transform 0.5s ease-in-out, opacity 0.2s ease-in-out;
+}
+.cid-sadG1b3nQA .card-box {
+  padding: 3rem 2.2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+.cid-sadG1b3nQA .card-box h3 {
+  font-weight: 600;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+}
+.cid-sadG1b3nQA .card-wrapper {
+  height: 100%;
+}
+.cid-sadG1b3nQA .card-wrapper:hover .card-img:before {
+  opacity: 0.3;
+  transform: perspective(100px) rotateY(0deg);
+}
+.cid-sadG1b3nQA .card-wrapper:hover .card-title a {
+  color: #7f1933 !important;
+}
+.cid-sadG1b3nQA .text {
+  color: #767676;
+}
+.cid-sadG1b3nQA .card-title {
+  color: #36404c;
+}
+.cid-sadG1b3nQA H3 {
+  color: #36404c;
+}
+@media (max-width: 767px) {
+  .cid-sadG1b3nQA .btn-col .btn {
+    margin-top: 2rem;
+    max-width: auto;
+    padding: 0.8rem 0.8rem;
+  }
 }
 .cid-s4GymElCNf {
   padding-top: 135px;
@@ -2215,6 +2286,18 @@ section.lazy-placeholder:after {
   .cid-s4Gu8jIyUc .md-pb {
     padding-bottom: 2rem;
   }
+}
+#custom-html-i {
+  /* Type valid CSS here */
+}
+#custom-html-i div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-i p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-s4GohAOzgj .navbar {
   background: #ffffff;
