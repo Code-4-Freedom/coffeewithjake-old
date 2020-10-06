@@ -1140,8 +1140,33 @@ section.lazy-placeholder:after {
     margin-left: 5rem;
   }
 }
-.cid-s4EvMAJ5EY {
+.cid-scABiI9nxh {
   background-image: url("../../../assets/images/coffeewithjakeheader-1832x1415.png");
+}
+.cid-scABiI9nxh .mbr-arrow {
+  background: #232323 !important;
+  opacity: .7;
+}
+.cid-scABiI9nxh .mbr-arrow i {
+  color: #ffffff !important;
+}
+.cid-scABiI9nxh .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #ffffff;
+  display: inline-block;
+}
+.cid-scABiI9nxh .animated-element,
+.cid-scABiI9nxh .typed-cursor {
+  color: #ffffff;
+}
+.cid-scABiI9nxh .animated-element {
+  border-bottom: 5px solid #255085;
+}
+@media (max-width: 767px) {
+  .cid-scABiI9nxh .typed-text {
+    text-align: center;
+  }
 }
 .cid-sadG1b3nQA {
   padding-top: 75px;
