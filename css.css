@@ -6,3 +6,6 @@ header{
   width: 100%; /* Full width */
   box-shadow: 0px 5px 10px #000000;
 }
+body{
+  background-color: #eeeeee;
+}
